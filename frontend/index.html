@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Nombres con IA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Generador de Nombres Creativos con IA</h1>
+        <p class="lead">Describe tu proyecto y deja que la inteligencia artificial te inspire.</p>
+        <hr class="my-4">
+        <div class="form-group">
+            <label for="descripcion">Descripción del Proyecto:</label>
+            <textarea class="form-control" id="descripcion" rows="3" placeholder="Una aplicación móvil para conectar amantes de las plantas..."></textarea>
+        </div>
+        <button id="generar" class="btn btn-primary btn-lg">Generar Nombres</button>
+    </div>
+
+    <div id="resultados" class="mt-4">
+        <h2>Nombres Sugeridos:</h2>
+        <ul id="lista-nombres" class="list-group">
+        </ul>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
